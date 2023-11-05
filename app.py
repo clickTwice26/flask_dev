@@ -50,6 +50,7 @@ def server_start(sno):
         server_loger.write(log_string+"\n")
         server_loger.close()
     # return 'Welcome to contact page'
+    return redirect("/")
 @app.route('/stop/<int:sno>')
 def server_stop(sno):
     todo = Todo.query.filter_by(sno=sno).first()
@@ -59,12 +60,12 @@ def server_stop(sno):
     # print(allrequest)
     # print(type(allrequest))
     return redirect("/")
-@app.route('/panel/<int:sno>')
+@app.route('/panel')
 def server_panel():
     # allrequest = Todo.query.all()
     # print(allrequest)
     # print(type(allrequest))
-    return 'Welcome to contact page'
+    return render_template("panel.html")
 
 
 
