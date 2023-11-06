@@ -1,6 +1,7 @@
 # eXpanel
 # All in one web-server deployer
-
+<img src="/static/screenshot1.png">
+<img src="/static/screenshot2.png">
 #### Advanced version of [ExPanel](https://github.com/clickTwice26/ExPanel)
 
 ## Features
