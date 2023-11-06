@@ -1,6 +1,7 @@
 # eXpanel
-## All in one web-server deployer
+# All in one web-server deployer
 
+#### Advanced version of [ExPanel](https://github.com/clickTwice26/ExPanel)
 
 ## Features
 -working on it.
