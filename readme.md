@@ -9,7 +9,6 @@
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
 
 - [flask] - python web framework!
 - [python] - high level programming language
