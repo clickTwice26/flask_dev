@@ -60,7 +60,7 @@ def server_stop(sno):
     # print(allrequest)
     # print(type(allrequest))
     return redirect("/")
-@app.route('/panel')
+@app.route('/panel/<int:sno>')
 def server_panel():
     # allrequest = Todo.query.all()
     # print(allrequest)
